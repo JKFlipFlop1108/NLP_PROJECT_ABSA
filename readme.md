@@ -3,6 +3,8 @@
 ## Project Status
 This repository contains the **shared data pipeline, task-specific exports, smoke-test notebooks, and model interfaces** for our finance-domain Aspect-Based Sentiment Analysis (ABSA) project.
 
+Train/Val/Test 80/10/10 split for the tasks
+
 The goal of this project is to build an **end-to-end ABSA system** with three main branches:
 
 - **ATE** — Aspect Term Extraction
@@ -116,8 +118,7 @@ The repository should be treated as having **one main canonical data layer**.
 
 These canonical files are the shared headline-level representation that downstream tasks depend on.
 
-## Important rule
-**No one should independently re-parse the raw CSV for training.**  
+
 All training-related work should start from the canonical / split exports.
 
 ---
