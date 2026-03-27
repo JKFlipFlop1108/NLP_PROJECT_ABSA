@@ -9,7 +9,7 @@ The goal of this project is to build an **end-to-end ABSA system** with three ma
 - **ASC** — Aspect Sentiment Classification
 - **Merge / Joint / Pipeline Integration** — combine aspect extraction and sentiment classification into final `(aspect, sentiment)` predictions
 
-This README is designed to help any team member quickly understand:
+This README is designed to help:
 
 - what the project is doing,
 - what each phase already produced,
@@ -458,7 +458,7 @@ Start from:
 - `ate_val.jsonl`
 - `ate_test.jsonl`
 
-Do **not** re-split or rebuild data from raw CSV.
+
 
 ## If you are working on ASC
 Start from:
@@ -466,7 +466,7 @@ Start from:
 - `asc_val.jsonl`
 - `asc_test.jsonl`
 
-Do **not** rebuild sentence-aspect pairs independently.
+
 
 ## If you are working on merge / joint
 Start from:
@@ -475,7 +475,7 @@ Start from:
 - `test_canonical.jsonl`
 - plus shared prediction schemas from ATE / ASC
 
-Do **not** invent a separate data source.
+
 
 ---
 
@@ -489,9 +489,9 @@ Do **not** invent a separate data source.
 - interface smoke tests
 
 ## Recommended next order
-1. **ASC minimal train-val smoke run**
-2. **ATE minimal train-val smoke run**
-3. **merge / pipeline smoke run**
+1. **ASC minimal train-val smoke run** √
+2. **ATE minimal train-val smoke run** √
+3. **merge / pipeline smoke run** √
 4. after that, convert smoke notebooks into real baseline training notebooks
 5. only then move into:
    - ablation
@@ -537,7 +537,6 @@ headline-level canonical JSON
 - ASC predictions
 - merged `(aspect, sentiment)` pairs
 
-If everyone follows this layered structure, the whole project stays consistent.
 
 ---
 
