@@ -1,0 +1,19 @@
+check_item,passed
+Canonical input loaded,True
+Review holdout created,True
+All model-ready rows assigned split,True
+No train/val group leakage,True
+No train/test group leakage,True
+No val/test group leakage,True
+Train canonical exported,True
+Val canonical exported,True
+Test canonical exported,True
+ATE train exported,True
+ATE val exported,True
+ATE test exported,True
+ASC train exported,True
+ASC val exported,True
+ASC test exported,True
+ATE validation passed,True
+ASC validation passed,True
+Split manifest exported,True

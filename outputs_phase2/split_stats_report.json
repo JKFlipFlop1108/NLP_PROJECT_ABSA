@@ -1,0 +1,35 @@
+{
+  "num_model_ready_rows": 10726,
+  "num_train_rows": 8576,
+  "num_val_rows": 1071,
+  "num_test_rows": 1079,
+  "num_train_groups": 8526,
+  "num_val_groups": 1066,
+  "num_test_groups": 1066,
+  "review_holdout_rows": 27,
+  "leakage_report": {
+    "train_val_overlap": 0,
+    "train_test_overlap": 0,
+    "val_test_overlap": 0
+  },
+  "review_summary": {
+    "review_holdout_headlines": 27,
+    "review_holdout_aspects": 27
+  },
+  "ate_validation": {
+    "train_token_label_len_ok": true,
+    "val_token_label_len_ok": true,
+    "test_token_label_len_ok": true,
+    "train_rows": 8576,
+    "val_rows": 1071,
+    "test_rows": 1079
+  },
+  "asc_validation": {
+    "train_all_labels_valid": true,
+    "val_all_labels_valid": true,
+    "test_all_labels_valid": true,
+    "train_records": 11443,
+    "val_records": 1438,
+    "test_records": 1468
+  }
+}

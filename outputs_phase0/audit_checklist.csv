@@ -1,0 +1,9 @@
+check_item,passed
+Schema matches expected columns,True
+No missing titles,True
+No missing decisions,True
+All decisions parsed successfully,True
+No invalid sentiment labels,True
+Audited CSV exported,True
+Audit report exported,True
+Duplicate report exported,True

@@ -1,0 +1,11 @@
+﻿check_item,passed
+ATE train file loaded,True
+ASC train file loaded,True
+Tokenizer loaded,True
+Joint model created,True
+ATE batch built,True
+ASC batch built,True
+At least one joint train step completed,True
+At least one ATE val batch completed,True
+At least one ASC val batch completed,True
+Smoke report saved,True

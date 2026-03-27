@@ -1,0 +1,28 @@
+{
+  "input_rows": 10753,
+  "aspect_rows": 14409,
+  "words_validation": {
+    "rows_with_numeric_words": 10753,
+    "exact_match_count": 10665,
+    "exact_match_ratio": 0.9918162373291175,
+    "mean_abs_diff": 0.008555751883195387,
+    "max_abs_diff": 3.0
+  },
+  "aspect_quality": {
+    "num_aspect_pairs": 14409,
+    "num_matched": 14382,
+    "num_review": 27,
+    "match_rate": 0.9981261711430356,
+    "match_type_distribution": {
+      "whole_word_unique": 14293,
+      "substring_unique": 89,
+      "whole_word_ambiguous": 27
+    },
+    "recovery_ok_on_matched": 1.0
+  },
+  "num_review_queue": 27,
+  "num_group_keys": 10685,
+  "canonical_csv_exported": true,
+  "canonical_jsonl_exported": true,
+  "review_queue_exported": true
+}

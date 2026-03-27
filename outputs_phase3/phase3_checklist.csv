@@ -1,0 +1,17 @@
+check_item,passed
+Tokenizer loaded,True
+ATE files loaded,True
+ASC files loaded,True
+Canonical files loaded,True
+ATE fields valid,True
+ASC fields valid,True
+Canonical fields valid,True
+ATE alignment produced labels,True
+ATE batch built,True
+ASC encoding produced label,True
+ASC batch built,True
+Shared prediction schemas defined,True
+Merge smoke validation passed,True
+ATE smoke report saved,True
+ASC smoke report saved,True
+Merge smoke report saved,True

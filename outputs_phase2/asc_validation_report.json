@@ -1,0 +1,8 @@
+{
+  "train_all_labels_valid": true,
+  "val_all_labels_valid": true,
+  "test_all_labels_valid": true,
+  "train_records": 11443,
+  "val_records": 1438,
+  "test_records": 1468
+}

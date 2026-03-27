@@ -1,0 +1,9 @@
+check_item,passed
+Input audited CSV loaded,True
+Aspect dictionaries reconstructed,True
+Words validation report exported,True
+Aspect quality report exported,True
+Review queue exported,True
+Canonical CSV exported,True
+Canonical JSONL exported,True
+At least some aspect pairs were matched,True

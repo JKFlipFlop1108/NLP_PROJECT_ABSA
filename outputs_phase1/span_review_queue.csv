@@ -1,0 +1,28 @@
+raw_id,title_norm,aspect_term_raw,aspect_term_norm,sentiment,match_status,match_type,num_candidates
+50,"Amidst commodity boom, vanilla remains plain vanilla",vanilla,vanilla,neutral,review,whole_word_ambiguous,2
+351,BoR awaits legal view for ICICI-BoR merger,BoR,BoR,neutral,review,whole_word_ambiguous,2
+1940,BSE to include Arvind Ltd in S&P BSE 200,BSE,BSE,neutral,review,whole_word_ambiguous,2
+3744,Gur prices decline on heavy supply of new gur,Gur,Gur,negative,review,whole_word_ambiguous,2
+4761,"Add IT, pharma names to portfolio; Mastek, Aurobindo Pharma top bets: Daljeet Singh Kohli, IndiaNivesh",pharma,pharma,positive,review,whole_word_ambiguous,2
+4862,"EM ASIA FX-Yuan's slide ruffles Asia FX; won, rupiah hit 2-mth lows",Asia FX,Asia FX,negative,review,whole_word_ambiguous,2
+4937,"Dollar supported before jobs data, Aussie dollar slides after RBA comments",Dollar,Dollar,neutral,review,whole_word_ambiguous,2
+4971,EM ASIA FX-Commodity rout weighs on Asia FX; yuan extends fall,Asia FX,Asia FX,negative,review,whole_word_ambiguous,2
+4976,"IT, Pharma under pressure; Infosys, TCS, Sun Pharma take a hit",Pharma,Pharma,negative,review,whole_word_ambiguous,2
+5628,SBI to launch FTSE SBI bond indices,SBI,SBI,neutral,review,whole_word_ambiguous,2
+5647,Siemens board OKs merging Siemens Rolling Stock,Siemens,Siemens,neutral,review,whole_word_ambiguous,2
+5712,BSE launches institutional trading platform on BSE SME,BSE,BSE,neutral,review,whole_word_ambiguous,2
+6682,Forwards Market Commission seeks public comments on market making in commodity segment,market,market,neutral,review,whole_word_ambiguous,2
+7155,"Rising gold lifts coin, gold loan demands",gold,gold,positive,review,whole_word_ambiguous,2
+8359,LIC Housing raises Rs 810 cr by issuing preference shares to LIC,LIC,LIC,neutral,review,whole_word_ambiguous,2
+9363,Volkswagen shares slump; a look at Volkswagen's emissions crisis,Volkswagen,Volkswagen,negative,review,whole_word_ambiguous,2
+9936,Apple's Tanking: Here's what a 1-point move in Apple does to the Dow,Apple,Apple,negative,review,whole_word_ambiguous,2
+9959,Euro down as euro zone PMI eyed after China survey fails to excite,Euro,Euro,negative,review,whole_word_ambiguous,2
+10066,Tariff value of gold increased to $521/10 gm; import of gold to be costlier,gold,gold,negative,review,whole_word_ambiguous,2
+10145,BSE small and midcap stocks shine; over 100 stocks hit fresh 52-week high on BSE,BSE,BSE,neutral,review,whole_word_ambiguous,2
+10233,"Opposite movement of Infosys, Sun Pharma stocks to surprise tech, pharma fund investors",pharma,pharma,neutral,review,whole_word_ambiguous,2
+10409,"HDFC, HDFC Bank excellent stocks to own : Deepak Mohoni",HDFC,HDFC,positive,review,whole_word_ambiguous,2
+10410,"HDFC, HDFC Bank rally on hopes ahead of MSCI review",HDFC,HDFC,positive,review,whole_word_ambiguous,2
+10472,"Nifty should test 8,450-8500; Bank Nifty eyes 18,900: Mitesh Thacker",Nifty,Nifty,positive,review,whole_word_ambiguous,2
+10569,"Optimistic on auto, auto ancillaries: Mayuresh Joshi, Angel Broking",auto,auto,positive,review,whole_word_ambiguous,2
+10614,"Open interest in Nifty, Bank Nifty sees a rise",Nifty,Nifty,positive,review,whole_word_ambiguous,2
+10708,"Edible, non-edible oils drop on subdued demand",Edible,Edible,negative,review,whole_word_ambiguous,2

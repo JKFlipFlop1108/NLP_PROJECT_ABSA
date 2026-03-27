@@ -1,0 +1,21 @@
+{
+  "backbone": "microsoft/deberta-v3-base",
+  "train_examples": 8576,
+  "val_examples": 1071,
+  "test_examples": 1079,
+  "sample_word_len": 10,
+  "sample_encoded_len": 13,
+  "batch_shape_input_ids": [
+    4,
+    14
+  ],
+  "batch_shape_attention_mask": [
+    4,
+    14
+  ],
+  "batch_shape_labels": [
+    4,
+    14
+  ],
+  "first_sample_token_label_len_match": true
+}

@@ -1,0 +1,23 @@
+{
+  "raw_shape": [
+    10753,
+    4
+  ],
+  "schema_ok": true,
+  "missing_title": 0,
+  "missing_decisions": 0,
+  "rows_with_parse_issue": 0,
+  "rows_with_invalid_labels": 0,
+  "num_headlines": 10753,
+  "num_aspect_pairs": 14409,
+  "num_multi_aspect_headlines": 2850,
+  "label_distribution": {
+    "neutral": 5515,
+    "positive": 5075,
+    "negative": 3819
+  },
+  "duplicated_titles": 134,
+  "duplicated_exact_rows": 110,
+  "duplicated_conflicting_rows": 24,
+  "raw_order_safe_for_direct_split": false
+}

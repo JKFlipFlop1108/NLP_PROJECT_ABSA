@@ -1,0 +1,7 @@
+{
+  "rows_with_numeric_words": 10753,
+  "exact_match_count": 10665,
+  "exact_match_ratio": 0.9918162373291175,
+  "mean_abs_diff": 0.008555751883195387,
+  "max_abs_diff": 3.0
+}
