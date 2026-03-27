@@ -322,7 +322,7 @@ Example structure:
   "raw_id": 1,
   "doc_id": "sentfin_000001",
   "text": "SpiceJet to issue 6.4 crore warrants to promoters",
-  "group_key": "spicejet to issue 6 4 crore warrants to promoters",
+  "group_key": "spicejet to issue 64 crore warrants to promoters",
   "num_aspects": 1,
   "label_signature": "neutral",
   "aspects": [
@@ -340,7 +340,7 @@ Example structure:
 
 ### Meaning
 - `doc_id`: shared ID across all branches
-- `text`: normalized headline text
+- `text`: headline text used by downstream task exports
 - `group_key`: used for duplicate-aware splitting
 - `aspects`: all aspect/sentiment annotations for this headline
 
@@ -385,7 +385,8 @@ Example structure:
   "sentiment": "neutral",
   "char_from": 0,
   "char_to": 8,
-  "match_type": "whole_word_unique"
+  "match_type": "whole_word_unique",
+  "input_text_template": "SpiceJet to issue 6.4 crore warrants to promoters [SEP] SpiceJet"
 }
 ```
 
@@ -516,26 +517,6 @@ For now, smoke tests are **not** final evaluation.
 ---
 
 
-# 14. Development Rules
-
-## Please follow these rules
-- Feel free to modify and improve the repo.
-- Push changes clearly and document what changed.
-- Do not silently change shared file formats.
-- If you change a schema, tell the group first.
-- Do not independently resplit the dataset.
-- Do not train directly from raw CSV.
-- Keep interfaces consistent across branches.
-
-## Communication note
-Model-related work will still require coordination between people, especially for:
-- optimizer choice,
-- learning rate,
-- frozen/unfrozen layers,
-- backbone settings,
-- and later merge strategy.
-
----
 
 # 15. Current Repository Mental Model
 
@@ -560,25 +541,4 @@ If everyone follows this layered structure, the whole project stays consistent.
 
 ---
 
-# 16. What This README Is Not
 
-This README is **not** the final experiment report.  
-It is a **project-onboarding and shared-pipeline guide**.
-
-So if something here looks slightly “engineering-oriented”, that is intentional:  
-the purpose is to help everyone quickly understand the workflow and start from the same data/interface assumptions.
-
----
-
-# 17. Short Summary
-
-If you only read one section, read this:
-
-- We use `SEntFiN-v1.1.csv` as the raw finance ABSA dataset.
-- We normalize it into a **canonical headline-level dataset**.
-- We split it with **duplicate-aware group-based logic**.
-- We export **ATE** and **ASC** task-specific JSONL files.
-- We validate **I/O compatibility** before real training.
-- We currently have one known ATE supervision mismatch issue that still needs cleanup.
-- ASC is the safest branch to start training first.
-- Canonical is the source of truth; ATE and ASC are task-specific views; merge recombines their outputs into final `(aspect, sentiment)` predictions.
