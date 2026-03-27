@@ -257,6 +257,21 @@ These are **not final training settings**. They are only for early verification.
 The current assumption is that merge/joint will use a **shared encoder** and learn ATE + ASC together.  
 However, the exact comparison strategy for merge baselines is still open and may be updated later.
 
+## Issue 4 Conflicting duplicate supervision still exists in model-ready data
+Phase 0 already identified a small set of **duplicate/conflicting rows** in the raw dataset.
+Although Phase 2 prevents split leakage by assigning the same `group_key` to the same split, it does **not yet remove all conflicting duplicate supervision** from the model-ready pool.
+
+Current interpretation:
+- this is **not** a train/val/test leakage problem,
+- but it does mean a small number of duplicate or near-duplicate headlines still carry **different gold labels**,
+- so some ASC records may present the same `(sentence, aspect, span)` with conflicting sentiments,
+- and some ATE records may present the same headline with different BIO supervision,
+- therefore this should be treated as a **known training-stability risk** before full baseline experiments.
+
+Practical implication:
+- Phase 4 smoke runs are still valid as engineering checks,
+- but later full training should ideally isolate, review, or reconcile these conflicting duplicate groups before being treated as final baselines.
+
 ---
 
 # 8. Data Files and Their Roles
@@ -500,17 +515,6 @@ For now, smoke tests are **not** final evaluation.
 
 ---
 
-# 13. Team Roles
-
-Current role split follows the proposal:
-
-- **Member 1** — Lead + integration
-- **Member 2** — Data engineer / shared pipeline
-- **Member 3** — ATE-only model
-- **Member 4** — ASC-only model
-- **Member 5** — Joint / merge model
-
----
 
 # 14. Development Rules
 
@@ -578,4 +582,3 @@ If you only read one section, read this:
 - We currently have one known ATE supervision mismatch issue that still needs cleanup.
 - ASC is the safest branch to start training first.
 - Canonical is the source of truth; ATE and ASC are task-specific views; merge recombines their outputs into final `(aspect, sentiment)` predictions.
-
