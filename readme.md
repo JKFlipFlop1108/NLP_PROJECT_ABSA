@@ -235,14 +235,14 @@ These smoke runs are intentionally lightweight and are **not final experiments**
 
 # 7. Current Known Issues
 
-## Issue 1 — ATE supervision mismatch
-There is a known Phase 2 issue involving **56 ATE supervision mismatches**.  
-This comes from a small subset of substring-based matches where an aspect is marked as matched in canonical data, but is not fully preserved in token-level BIO export.
+## Issue 1 — ATE supervision mismatch (Solved)
+~~There is a known Phase 2 issue involving **56 ATE supervision mismatches**.~~ 
+~~This comes from a small subset of substring-based matches where an aspect is marked as matched in canonical data, but is not fully preserved in token-level BIO export.~~
 
-Current interpretation:
-- this does **not** invalidate the whole data pipeline,
-- but it means ATE final gold consistency is not yet perfect,
-- so formal ATE experiments should treat this as a known risk until resolved.
+~~Current interpretation:~~
+~~- this does **not** invalidate the whole data pipeline,~~
+~~- but it means ATE final gold consistency is not yet perfect,~~
+~~- so formal ATE experiments should treat this as a known risk until resolved.~~
 
 ## Issue 2 — Smoke-test hyperparameters are temporary
 For quick smoke tests, current minimal runs may use extremely simplified settings:
