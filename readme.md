@@ -264,7 +264,7 @@ Current status:
 - So for the current engineering baseline, merge/joint should be understood as the **shared-encoder joint approach**.
 - If this approach later proves unstable or underperforms, we can then add and compare a **pipeline baseline** as the next alternative.
 
-## Issue 4 Conflicting duplicate supervision still exists in model-ready data
+## Issue 4 Conflicting duplicate supervision still exists in model-ready data (Already Group to avoid leakage, not a big issue at this moment)
 Phase 0 already identified a small set of **duplicate/conflicting rows** in the raw dataset.
 Although Phase 2 prevents split leakage by assigning the same `group_key` to the same split, it does **not yet remove all conflicting duplicate supervision** from the model-ready pool.
 
