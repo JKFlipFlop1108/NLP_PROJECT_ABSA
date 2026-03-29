@@ -10,17 +10,24 @@
   },
   "aspect_quality": {
     "num_aspect_pairs": 14409,
-    "num_matched": 14382,
-    "num_review": 27,
-    "match_rate": 0.9981261711430356,
+    "num_matched": 14293,
+    "num_review": 116,
+    "match_rate": 0.9919494760219307,
     "match_type_distribution": {
       "whole_word_unique": 14293,
       "substring_unique": 89,
       "whole_word_ambiguous": 27
     },
-    "recovery_ok_on_matched": 1.0
+    "recovery_ok_on_matched": 1.0,
+    "num_whole_word_unique": 14293,
+    "num_substring_unique": 89,
+    "num_normalized_unique": 0,
+    "num_matched_non_whole_word": 0,
+    "num_review_due_to_weak_match": 89,
+    "num_weak_matches_redirected_to_review": 89,
+    "matched_only_whole_word_unique": true
   },
-  "num_review_queue": 27,
+  "num_review_queue": 116,
   "num_group_keys": 10685,
   "canonical_csv_exported": true,
   "canonical_jsonl_exported": true,

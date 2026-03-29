@@ -1,5 +1,5 @@
 {
-  "canonical_train_rows": 8576,
+  "canonical_train_rows": 8509,
   "sample_doc_id": "sentfin_000001",
   "fake_ate_pred_count": 1,
   "fake_asc_pred_count": 1,

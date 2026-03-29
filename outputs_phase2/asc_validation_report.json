@@ -2,7 +2,19 @@
   "train_all_labels_valid": true,
   "val_all_labels_valid": true,
   "test_all_labels_valid": true,
-  "train_records": 11443,
-  "val_records": 1438,
-  "test_records": 1468
+  "train_records": 11369,
+  "val_records": 1417,
+  "test_records": 1445,
+  "train_records_with_bad_span": 0,
+  "val_records_with_bad_span": 0,
+  "test_records_with_bad_span": 0,
+  "train_records_with_bad_template": 0,
+  "val_records_with_bad_template": 0,
+  "test_records_with_bad_template": 0,
+  "train_records_with_invalid_match_type": 0,
+  "val_records_with_invalid_match_type": 0,
+  "test_records_with_invalid_match_type": 0,
+  "train_records_with_invalid_sentiment": 0,
+  "val_records_with_invalid_sentiment": 0,
+  "test_records_with_invalid_sentiment": 0
 }

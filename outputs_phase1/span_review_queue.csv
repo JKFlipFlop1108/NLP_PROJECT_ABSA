@@ -1,28 +1,117 @@
-raw_id,title_norm,aspect_term_raw,aspect_term_norm,sentiment,match_status,match_type,num_candidates
-50,"Amidst commodity boom, vanilla remains plain vanilla",vanilla,vanilla,neutral,review,whole_word_ambiguous,2
-351,BoR awaits legal view for ICICI-BoR merger,BoR,BoR,neutral,review,whole_word_ambiguous,2
-1940,BSE to include Arvind Ltd in S&P BSE 200,BSE,BSE,neutral,review,whole_word_ambiguous,2
-3744,Gur prices decline on heavy supply of new gur,Gur,Gur,negative,review,whole_word_ambiguous,2
-4761,"Add IT, pharma names to portfolio; Mastek, Aurobindo Pharma top bets: Daljeet Singh Kohli, IndiaNivesh",pharma,pharma,positive,review,whole_word_ambiguous,2
-4862,"EM ASIA FX-Yuan's slide ruffles Asia FX; won, rupiah hit 2-mth lows",Asia FX,Asia FX,negative,review,whole_word_ambiguous,2
-4937,"Dollar supported before jobs data, Aussie dollar slides after RBA comments",Dollar,Dollar,neutral,review,whole_word_ambiguous,2
-4971,EM ASIA FX-Commodity rout weighs on Asia FX; yuan extends fall,Asia FX,Asia FX,negative,review,whole_word_ambiguous,2
-4976,"IT, Pharma under pressure; Infosys, TCS, Sun Pharma take a hit",Pharma,Pharma,negative,review,whole_word_ambiguous,2
-5628,SBI to launch FTSE SBI bond indices,SBI,SBI,neutral,review,whole_word_ambiguous,2
-5647,Siemens board OKs merging Siemens Rolling Stock,Siemens,Siemens,neutral,review,whole_word_ambiguous,2
-5712,BSE launches institutional trading platform on BSE SME,BSE,BSE,neutral,review,whole_word_ambiguous,2
-6682,Forwards Market Commission seeks public comments on market making in commodity segment,market,market,neutral,review,whole_word_ambiguous,2
-7155,"Rising gold lifts coin, gold loan demands",gold,gold,positive,review,whole_word_ambiguous,2
-8359,LIC Housing raises Rs 810 cr by issuing preference shares to LIC,LIC,LIC,neutral,review,whole_word_ambiguous,2
-9363,Volkswagen shares slump; a look at Volkswagen's emissions crisis,Volkswagen,Volkswagen,negative,review,whole_word_ambiguous,2
-9936,Apple's Tanking: Here's what a 1-point move in Apple does to the Dow,Apple,Apple,negative,review,whole_word_ambiguous,2
-9959,Euro down as euro zone PMI eyed after China survey fails to excite,Euro,Euro,negative,review,whole_word_ambiguous,2
-10066,Tariff value of gold increased to $521/10 gm; import of gold to be costlier,gold,gold,negative,review,whole_word_ambiguous,2
-10145,BSE small and midcap stocks shine; over 100 stocks hit fresh 52-week high on BSE,BSE,BSE,neutral,review,whole_word_ambiguous,2
-10233,"Opposite movement of Infosys, Sun Pharma stocks to surprise tech, pharma fund investors",pharma,pharma,neutral,review,whole_word_ambiguous,2
-10409,"HDFC, HDFC Bank excellent stocks to own : Deepak Mohoni",HDFC,HDFC,positive,review,whole_word_ambiguous,2
-10410,"HDFC, HDFC Bank rally on hopes ahead of MSCI review",HDFC,HDFC,positive,review,whole_word_ambiguous,2
-10472,"Nifty should test 8,450-8500; Bank Nifty eyes 18,900: Mitesh Thacker",Nifty,Nifty,positive,review,whole_word_ambiguous,2
-10569,"Optimistic on auto, auto ancillaries: Mayuresh Joshi, Angel Broking",auto,auto,positive,review,whole_word_ambiguous,2
-10614,"Open interest in Nifty, Bank Nifty sees a rise",Nifty,Nifty,positive,review,whole_word_ambiguous,2
-10708,"Edible, non-edible oils drop on subdued demand",Edible,Edible,negative,review,whole_word_ambiguous,2
+raw_id,title_norm,aspect_term_raw,aspect_term_norm,sentiment,match_status,match_type,num_candidates,char_from,char_to,review_reason
+50,"Amidst commodity boom, vanilla remains plain vanilla",vanilla,vanilla,neutral,review,whole_word_ambiguous,2,,,ambiguous_match
+109,Sebis reading of control issue confounds experts,Sebi,Sebi,neutral,review,substring_unique,1,0.0,4.0,weak_match_substring
+188,Long-term investors may go for PMC Infratechs IPO,PMC Infratech,PMC Infratech,neutral,review,substring_unique,1,31.0,44.0,weak_match_substring
+221,"Nifty50 to find support at 7,950-7,930: Mitesh Thacker",Nifty,Nifty,neutral,review,substring_unique,1,0.0,5.0,weak_match_substring
+351,BoR awaits legal view for ICICI-BoR merger,BoR,BoR,neutral,review,whole_word_ambiguous,2,,,ambiguous_match
+357,Two senior executives quit HULs modern trade division,HUL,HUL,neutral,review,substring_unique,1,27.0,30.0,weak_match_substring
+380,FTILs warrants sale hangs in balance,FTIL,FTIL,neutral,review,substring_unique,1,0.0,4.0,weak_match_substring
+622,Max Indias Vibha Paul Rishi decides to move on,Max India,Max India,neutral,review,substring_unique,1,0.0,9.0,weak_match_substring
+793,Alibaba's record IPO covered entire deal in 2 days: Sources,Alibab,Alibab,neutral,review,substring_unique,1,0.0,6.0,weak_match_substring
+865,Half-a-dozen hopefuls line up for UTI Mutual Funds top post,UTI Mutual Fund,UTI Mutual Fund,neutral,review,substring_unique,1,34.0,49.0,weak_match_substring
+968,Sateesh Andra takes over as Ventureast Tenet Funds Managing Partner,Ventureast Tenet Fund,Ventureast Tenet Fund,neutral,review,substring_unique,1,28.0,49.0,weak_match_substring
+1099,ICICI Banks K Ramkumar moves from HR to head CSR division,ICICI Bank,ICICI Bank,neutral,review,substring_unique,1,0.0,10.0,weak_match_substring
+1140,"NBFCs look good from macro perspective, but stay selective: Amit Khurana",NBFC,NBFC,neutral,review,substring_unique,1,0.0,4.0,weak_match_substring
+1191,Three reasons why India Incs credit scores are on the mend,India Inc,India Inc,neutral,review,substring_unique,1,18.0,27.0,weak_match_substring
+1272,Preview: Top five things to watch out for in Biocons Q4 results,Biocon,Biocon,neutral,review,substring_unique,1,45.0,51.0,weak_match_substring
+1328,Goldman Sachs steps up India focus; ropes in Morgan Stanleys ex-ED PV Krishna,Morgan Stanley,Morgan Stanley,neutral,review,substring_unique,1,45.0,59.0,weak_match_substring
+1403,Air Indias insurance contract up for renewal on October 1 for an estimated $25 million,Air India,Air India,neutral,review,substring_unique,1,0.0,9.0,weak_match_substring
+1455,Niftys still holding the momentum: Nirmal Bang,Nifty,Nifty,neutral,review,substring_unique,1,0.0,5.0,weak_match_substring
+1501,Sun Pharmas stocks surge after merger with Taro,Sun Pharma,Sun Pharma,positive,review,substring_unique,1,0.0,10.0,weak_match_substring
+1521,"Snowmans IPO gets overwhelming response, subscribing 60 times",Snowman,Snowman,positive,review,substring_unique,1,0.0,7.0,weak_match_substring
+1547,Satyam merger boosts Tech Mahindras balance sheet,Tech Mahindra,Tech Mahindra,positive,review,substring_unique,1,21.0,34.0,weak_match_substring
+1562,RILs Q1 show triggers bullish bets,RIL,RIL,positive,review,substring_unique,1,0.0,3.0,weak_match_substring
+1639,MBL Infrastructures surges 18% on listing,MBL Infrastructure,MBL Infrastructure,positive,review,substring_unique,1,0.0,18.0,weak_match_substring
+1697,India Incs RoE may improve this fiscal,India Inc,India Inc,positive,review,substring_unique,1,0.0,9.0,weak_match_substring
+1940,BSE to include Arvind Ltd in S&P BSE 200,BSE,BSE,neutral,review,whole_word_ambiguous,2,,,ambiguous_match
+2163,10-yr bonds hit over 4-month high; RBI chief comments aid,10-yr bond,10-yr bond,positive,review,substring_unique,1,0.0,10.0,weak_match_substring
+2292,"IDFC Ltds Rs 1,000 crore QIP draws big investor interest",IDFC Ltd,IDFC Ltd,positive,review,substring_unique,1,0.0,8.0,weak_match_substring
+2322,Lakshmi Vilas Banks net profits rises to Rs 25.23 crore,Lakshmi Vilas Bank,Lakshmi Vilas Bank,positive,review,substring_unique,1,0.0,18.0,weak_match_substring
+2399,PSBs a good bet from a 2-3-year perspective: Angel Broking,PSB,PSB,positive,review,substring_unique,1,0.0,3.0,weak_match_substring
+2567,FMCGs to take big hit from possible FII outflow: UR Bhat,FMCG,FMCG,negative,review,substring_unique,1,0.0,4.0,weak_match_substring
+2598,IDFs can extend schemes' tenure by up to 2 years: Sebi,IDF,IDF,neutral,review,substring_unique,1,0.0,3.0,weak_match_substring
+2660,"Persistent Systems rallies nearly 5%, hits 52-week high on expansion plans",Persistent System,Persistent System,positive,review,substring_unique,1,0.0,17.0,weak_match_substring
+2846,Karur Vysya Bank Q3 net profit rises marginally to Rs 113.88 Crore,Karur Vysya Ban,Karur Vysya Ban,positive,review,substring_unique,1,0.0,15.0,weak_match_substring
+2847,Karur Vysya Bank Q4 net up 17 pc at Rs 115 cr,Karur Vysya Ban,Karur Vysya Ban,positive,review,substring_unique,1,0.0,15.0,weak_match_substring
+2865,NBFCs seeing good Q2 numbers on fall in input cost: Deepak Shenoy,NBFC,NBFC,positive,review,substring_unique,1,0.0,4.0,weak_match_substring
+2874,PE firm Apax buys TPGs 20.3% stake in Shriram City Union Finance,TPG,TPG,neutral,review,substring_unique,1,18.0,21.0,weak_match_substring
+2977,FMCGs are a good bet on revival of the Indian economy: Dipan Mehta,FMCG,FMCG,positive,review,substring_unique,1,0.0,4.0,weak_match_substring
+2985,HFCs offer great value even at prevailing levels; prefer Repco Home: Vinay Khattar,HFC,HFC,neutral,review,substring_unique,1,0.0,3.0,weak_match_substring
+2991,IDFC Banks a good long-term bet even if it makes a slow start,IDFC Bank,IDFC Bank,positive,review,substring_unique,1,0.0,9.0,weak_match_substring
+3021,NBFCs rally as RBI likely to give bank licences in next 10-15 days,NBFC,NBFC,positive,review,substring_unique,1,0.0,4.0,weak_match_substring
+3138,HFCs can offer a CAGR return of 25% over the next few years: Deven Choksey,HFC,HFC,neutral,review,substring_unique,1,0.0,3.0,weak_match_substring
+3140,ICICIs provisioning up 36% at Rs 850 crore; healthy CAR & CASA base offer comfort,ICICI,ICICI,positive,review,substring_unique,1,0.0,5.0,weak_match_substring
+3239,"Wipros revenue from media, telecom down 3.1%",Wipro,Wipro,negative,review,substring_unique,1,0.0,5.0,weak_match_substring
+3293,It is Sensexs third-worst Samvat in a decade,Sensex,Sensex,negative,review,substring_unique,1,6.0,12.0,weak_match_substring
+3565,Dependence on power sector may hit BHELs margins,BHEL,BHEL,negative,review,substring_unique,1,35.0,39.0,weak_match_substring
+3744,Gur prices decline on heavy supply of new gur,Gur,Gur,negative,review,whole_word_ambiguous,2,,,ambiguous_match
+3785,"NCDs lose ground, funds at 6-year low in FY15",NCD,NCD,negative,review,substring_unique,1,0.0,3.0,weak_match_substring
+3881,Ultratech Cements profit declines 6% to Rs 591 crore,Ultratech Cement,Ultratech Cement,negative,review,substring_unique,1,0.0,16.0,weak_match_substring
+4146,Bleak quarter seen for India Incs earnings growth amid low demand,India Inc,India Inc,negative,review,substring_unique,1,23.0,32.0,weak_match_substring
+4534,"Aptechs performance a bit of debacle: Gaurang Shah, Geojit BNP Paribas Financial Services",Aptech,Aptech,negative,review,substring_unique,1,0.0,6.0,weak_match_substring
+4614,STOCK TO WATCH: ACCs Q1 PAT seen 40% down at Rs 238 crore,ACC,ACC,negative,review,substring_unique,1,16.0,19.0,weak_match_substring
+4761,"Add IT, pharma names to portfolio; Mastek, Aurobindo Pharma top bets: Daljeet Singh Kohli, IndiaNivesh",pharma,pharma,positive,review,whole_word_ambiguous,2,,,ambiguous_match
+4823,"JGBs little changed, Bank of Japan buying offsets impact of Nikkei rally",JGB,JGB,neutral,review,substring_unique,1,0.0,3.0,weak_match_substring
+4862,"EM ASIA FX-Yuan's slide ruffles Asia FX; won, rupiah hit 2-mth lows",Asia FX,Asia FX,negative,review,whole_word_ambiguous,2,,,ambiguous_match
+4878,"Australia, New Zealand dollars continue gains as Greece offers plan, China rebounds",New Zealand dollar,New Zealand dollar,positive,review,substring_unique,1,11.0,29.0,weak_match_substring
+4937,"Dollar supported before jobs data, Aussie dollar slides after RBA comments",Dollar,Dollar,neutral,review,whole_word_ambiguous,2,,,ambiguous_match
+4971,EM ASIA FX-Commodity rout weighs on Asia FX; yuan extends fall,Asia FX,Asia FX,negative,review,whole_word_ambiguous,2,,,ambiguous_match
+4976,"IT, Pharma under pressure; Infosys, TCS, Sun Pharma take a hit",Pharma,Pharma,negative,review,whole_word_ambiguous,2,,,ambiguous_match
+5476,Asian markets: Tokyo stocks open flat,Asian market,Asian market,neutral,review,substring_unique,1,0.0,12.0,weak_match_substring
+5533,FIIs August selloff biggest since January 2008,FII,FII,neutral,review,substring_unique,1,0.0,3.0,weak_match_substring
+5628,SBI to launch FTSE SBI bond indices,SBI,SBI,neutral,review,whole_word_ambiguous,2,,,ambiguous_match
+5647,Siemens board OKs merging Siemens Rolling Stock,Siemens,Siemens,neutral,review,whole_word_ambiguous,2,,,ambiguous_match
+5712,BSE launches institutional trading platform on BSE SME,BSE,BSE,neutral,review,whole_word_ambiguous,2,,,ambiguous_match
+5791,INR appreciation is helping the OMCs: Gaurav Mehta,OMC,OMC,neutral,review,substring_unique,1,32.0,35.0,weak_match_substring
+6057,IIHFL to raise Rs 200 crore through non-convertible debentures,IHFL,IHFL,neutral,review,substring_unique,1,1.0,5.0,weak_match_substring
+6062,"Indian funds, HNIs eye slice of Alibaba mega IPO",HNI,HNI,neutral,review,substring_unique,1,14.0,17.0,weak_match_substring
+6157,Sanjiv Singh takes over as IOCs director of refineries,IOC,IOC,neutral,review,substring_unique,1,27.0,30.0,weak_match_substring
+6162,SC dismisses Dalals' plea in the IPO fraud case,Dalal,Dalal,neutral,review,substring_unique,1,13.0,18.0,weak_match_substring
+6471,China stocks end firmer as investors switch into tech from property,China stock,China stock,neutral,review,substring_unique,1,0.0,11.0,weak_match_substring
+6541,Key thing for OMCs is the subsidy sharing pattern: India Infoline,OMC,OMC,neutral,review,substring_unique,1,14.0,17.0,weak_match_substring
+6577,PSUs need to operate on economic principles to perform: Dipan Mehta,PSU,PSU,neutral,review,substring_unique,1,0.0,3.0,weak_match_substring
+6626,"Too early to take a call on metals: Jitendra Mehta, Edelweiss",metal,metal,neutral,review,substring_unique,1,28.0,33.0,weak_match_substring
+6682,Forwards Market Commission seeks public comments on market making in commodity segment,market,market,neutral,review,whole_word_ambiguous,2,,,ambiguous_match
+6827,"World Banks finance arm rolls out offshore rupee bonds for Rs 1,600 crore",World Bank,World Bank,neutral,review,substring_unique,1,0.0,10.0,weak_match_substring
+6849,"It is time to realign a little bit towards PSBs: David Pezarkar, Daiwa AMC",PSB,PSB,neutral,review,substring_unique,1,43.0,46.0,weak_match_substring
+7134,NBFCs may outperform strong banks: BP Singh,NBFC,NBFC,positive,review,substring_unique,1,0.0,4.0,weak_match_substring
+7155,"Rising gold lifts coin, gold loan demands",gold,gold,positive,review,whole_word_ambiguous,2,,,ambiguous_match
+7254,ETFs outpacing retail stock funds by wide margin,ETF,ETF,positive,review,substring_unique,1,0.0,3.0,weak_match_substring
+7296,Maximise returns: Go for Gold ETFs this Diwali,Gold ETF,Gold ETF,positive,review,substring_unique,1,25.0,33.0,weak_match_substring
+7300,MFs jive to the turnaround beat on D-Street,MF,MF,positive,review,substring_unique,1,0.0,2.0,weak_match_substring
+7301,Mid-caps yield from SIPs higher than large-cap funds,SIP,SIP,positive,review,substring_unique,1,20.0,23.0,weak_match_substring
+7348,RILs 4.3% surge helps Sensex gain 322 points,RIL,RIL,positive,review,substring_unique,1,0.0,3.0,weak_match_substring
+7364,SKS Microfinances now the toast of smart investors,SKS Microfinance,SKS Microfinance,positive,review,substring_unique,1,0.0,16.0,weak_match_substring
+7635,SCI to operate GAILs nine LNG ships; stock rallies,GAIL,GAIL,neutral,review,substring_unique,1,15.0,19.0,weak_match_substring
+7793,"EPFO subscribes to SBIs entire Rs 2,000 crore bond issue",SBI,SBI,positive,review,substring_unique,1,19.0,22.0,weak_match_substring
+7917,"OMCs may cut petrol, diesel price in November; stocks gain",OMC,OMC,positive,review,substring_unique,1,0.0,3.0,weak_match_substring
+8359,LIC Housing raises Rs 810 cr by issuing preference shares to LIC,LIC,LIC,neutral,review,whole_word_ambiguous,2,,,ambiguous_match
+8564,Existing investors should hold on to Eicher Motors' stock for long-term gains: Mayuresh Joshi,Eicher Motor,Eicher Motor,positive,review,substring_unique,1,37.0,49.0,weak_match_substring
+8622,Hedge funds most bullish on silver in 7 months on hope it will outperform gold,Hedge fund,Hedge fund,positive,review,substring_unique,1,0.0,10.0,weak_match_substring
+8656,"NBFCs look at a healthy fourth quarter despite stress points, Investors may dig into these stocks",NBFC,NBFC,positive,review,substring_unique,1,0.0,4.0,weak_match_substring
+8729,CBI probes MCXs market debut,MCX,MCX,negative,review,substring_unique,1,11.0,14.0,weak_match_substring
+8745,Paris underperforms flat European stock markets,European stock market,European stock market,negative,review,substring_unique,1,25.0,46.0,weak_match_substring
+8748,"Offshore India ETFs pull money out in July, first time in 16 months; sell equities worth Rs 750 crore",ETF,ETF,negative,review,substring_unique,1,15.0,18.0,weak_match_substring
+9182,"Brent steady under $109, set for second weekly loss",B,B,negative,review,substring_unique,1,0.0,1.0,weak_match_substring
+9184,Brokerages lower Nestle Indias target price on disappointing results,Nestle India,Nestle India,negative,review,substring_unique,1,17.0,29.0,weak_match_substring
+9252,JGBs little changed as rebounding stocks temper safe-haven appeal,JGB,JGB,negative,review,substring_unique,1,0.0,3.0,weak_match_substring
+9265,Margin pressure could impact construction cos' earnings: Avinash Gorakshekar,construction co,construction co,negative,review,substring_unique,1,29.0,44.0,weak_match_substring
+9363,Volkswagen shares slump; a look at Volkswagen's emissions crisis,Volkswagen,Volkswagen,negative,review,whole_word_ambiguous,2,,,ambiguous_match
+9452,"Gold steadies near $1,200 as oil firms; sentiment remains bearish",G,G,negative,review,substring_unique,1,0.0,1.0,weak_match_substring
+9680,IiAS tells Maruti's institutional holders to oppose Suzukis's proposed Gujarat plant,Suzuki,Suzuki,negative,review,substring_unique,1,52.0,58.0,weak_match_substring
+9936,Apple's Tanking: Here's what a 1-point move in Apple does to the Dow,Apple,Apple,negative,review,whole_word_ambiguous,2,,,ambiguous_match
+9959,Euro down as euro zone PMI eyed after China survey fails to excite,Euro,Euro,negative,review,whole_word_ambiguous,2,,,ambiguous_match
+10063,"Stocks of PSBs may correct 3-7% on weak results, buy on dips: Mehraboon Irani",PSB,PSB,negative,review,substring_unique,1,10.0,13.0,weak_match_substring
+10066,Tariff value of gold increased to $521/10 gm; import of gold to be costlier,gold,gold,negative,review,whole_word_ambiguous,2,,,ambiguous_match
+10145,BSE small and midcap stocks shine; over 100 stocks hit fresh 52-week high on BSE,BSE,BSE,neutral,review,whole_word_ambiguous,2,,,ambiguous_match
+10167,"Bharti, Tata Comm, mobile content players likely to see sharp run-up : Harendra Kumar",Bhart,Bhart,positive,review,substring_unique,1,0.0,5.0,weak_match_substring
+10233,"Opposite movement of Infosys, Sun Pharma stocks to surprise tech, pharma fund investors",pharma,pharma,neutral,review,whole_word_ambiguous,2,,,ambiguous_match
+10409,"HDFC, HDFC Bank excellent stocks to own : Deepak Mohoni",HDFC,HDFC,positive,review,whole_word_ambiguous,2,,,ambiguous_match
+10410,"HDFC, HDFC Bank rally on hopes ahead of MSCI review",HDFC,HDFC,positive,review,whole_word_ambiguous,2,,,ambiguous_match
+10472,"Nifty should test 8,450-8500; Bank Nifty eyes 18,900: Mitesh Thacker",Nifty,Nifty,positive,review,whole_word_ambiguous,2,,,ambiguous_match
+10569,"Optimistic on auto, auto ancillaries: Mayuresh Joshi, Angel Broking",auto,auto,positive,review,whole_word_ambiguous,2,,,ambiguous_match
+10614,"Open interest in Nifty, Bank Nifty sees a rise",Nifty,Nifty,positive,review,whole_word_ambiguous,2,,,ambiguous_match
+10681,"Global oil worries, rupeee fall weigh on stocks",rupee,rupee,negative,review,substring_unique,1,20.0,25.0,weak_match_substring
+10702,"Australia, NZ dlrs trapped by holiday lull",Australi,Australi,negative,review,substring_unique,1,0.0,8.0,weak_match_substring
+10708,"Edible, non-edible oils drop on subdued demand",Edible,Edible,negative,review,whole_word_ambiguous,2,,,ambiguous_match
+10708,"Edible, non-edible oils drop on subdued demand",non-edible oil,non-edible oil,negative,review,substring_unique,1,8.0,22.0,weak_match_substring

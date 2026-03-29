@@ -7,3 +7,5 @@ Review queue exported,True
 Canonical CSV exported,True
 Canonical JSONL exported,True
 At least some aspect pairs were matched,True
+All matched spans are whole-word unique,True
+No weak matches remain in matched set,True

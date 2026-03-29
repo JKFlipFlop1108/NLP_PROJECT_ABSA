@@ -1,8 +1,8 @@
 {
   "backbone": "microsoft/deberta-v3-base",
-  "train_examples": 8576,
-  "val_examples": 1071,
-  "test_examples": 1079,
+  "train_examples": 8509,
+  "val_examples": 1063,
+  "test_examples": 1066,
   "sample_word_len": 10,
   "sample_encoded_len": 13,
   "batch_shape_input_ids": [

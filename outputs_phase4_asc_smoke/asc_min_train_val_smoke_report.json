@@ -1,9 +1,9 @@
 {
   "backbone": "microsoft/deberta-v3-base",
   "device": "cuda",
-  "train_records_total": 11443,
-  "val_records_total": 1438,
-  "test_records_total": 1468,
+  "train_records_total": 11369,
+  "val_records_total": 1417,
+  "test_records_total": 1445,
   "smoke_train_size": 256,
   "smoke_val_size": 64,
   "batch_size": 8,
@@ -14,7 +14,7 @@
   "max_val_batches": 5,
   "one_batch_input_shape": [
     8,
-    17
+    19
   ],
   "one_batch_label_shape": [
     8
@@ -23,7 +23,7 @@
   "backward_pass_ok": true,
   "train_steps_completed": 20,
   "val_batches_completed": 5,
-  "mean_train_loss": 1.1729891002178192,
-  "mean_val_loss": 1.1672422885894775,
-  "val_accuracy": 0.025
+  "mean_train_loss": 1.1716544926166534,
+  "mean_val_loss": 1.1780611515045165,
+  "val_accuracy": 0.0
 }
