@@ -254,9 +254,15 @@ For quick smoke tests, current minimal runs may use extremely simplified setting
 
 These are **not final training settings**. They are only for early verification.
 
-## Issue 3 — Merge design is still open
-The current assumption is that merge/joint will use a **shared encoder** and learn ATE + ASC together.  
-However, the exact comparison strategy for merge baselines is still open and may be updated later.
+## Issue 3 — Merge design is still open (Solved)
+~~The current assumption is that merge/joint will use a **shared encoder** and learn ATE + ASC together.~~  
+~~However, the exact comparison strategy for merge baselines is still open and may be updated later.~~
+
+Current status:
+- Phase 4C currently implements a **shared-encoder joint ATE + ASC** smoke run.
+- This is **not** a pipeline design such as `ASC -> ATE` or `ATE -> ASC`.
+- So for the current engineering baseline, merge/joint should be understood as the **shared-encoder joint approach**.
+- If this approach later proves unstable or underperforms, we can then add and compare a **pipeline baseline** as the next alternative.
 
 ## Issue 4 Conflicting duplicate supervision still exists in model-ready data
 Phase 0 already identified a small set of **duplicate/conflicting rows** in the raw dataset.
@@ -540,5 +546,4 @@ headline-level canonical JSON
 
 
 ---
-
 
